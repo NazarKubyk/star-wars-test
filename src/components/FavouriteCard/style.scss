@@ -1,0 +1,21 @@
+.favourite-card{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+
+    &-icon{
+        width: 40px;
+        height: 40px;
+        align-self: flex-end;
+    }
+
+    &-name{
+        align-self: center;
+        font-size: 1.6rem;
+    }  
+}
